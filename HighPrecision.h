@@ -8,6 +8,7 @@ public:
 	static std::string add(const std::string & lhs, const std::string & rhs);
 	static std::string multiple(const std::string & lhs, const std::string & rhs);
 	static std::string factorial(int n);
+	static std::string power(const std::string & base, const int n);
 };
 
 #endif // __HIGHPRECISION_H__

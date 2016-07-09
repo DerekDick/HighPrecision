@@ -87,3 +87,12 @@ std::string HighPrecision::factorial(int n) {
 
 	return result;
 }
+
+std::string HighPrecision::power(const std::string & base, const int n) {
+	std::string result = "1";
+	for (int i = 0; i < n; i++) {
+		result = multiple(result, base);
+	}
+
+	return result;
+}
