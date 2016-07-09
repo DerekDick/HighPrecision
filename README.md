@@ -1,2 +1,3 @@
 # HighPrecision
-HighPrecision calculation in C++.
+High precision calculation implemented with C++.
+All developed by myself without any reference.
